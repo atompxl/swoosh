@@ -1,8 +1,8 @@
-package com.aycm.swoosh
+package com.aycm.swoosh.controller
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.aycm.swoosh.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity() {
