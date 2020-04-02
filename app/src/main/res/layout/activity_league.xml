@@ -7,7 +7,7 @@
     tools:context=".LeagueActivity">
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/leagueNextBtn"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:scaleType="centerCrop"
@@ -29,7 +29,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/leagueNextBtn"
         app:srcCompat="@drawable/swooshlogo"
         android:contentDescription="@string/app_logo" />
 
@@ -96,8 +96,12 @@
         android:id="@+id/button2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/swoosh_button"
         android:fontFamily="@font/montserrat"
+        android:onClick="leagueNextClicked"
         android:text="@string/next"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
